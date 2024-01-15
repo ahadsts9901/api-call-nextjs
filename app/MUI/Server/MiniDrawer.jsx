@@ -191,6 +191,9 @@ export default function MiniDrawer(props) {
                     padding: "1em"
                 }}>
                     {props.data}
+                    <div>
+                        <h1>{new Date().toLocaleTimeString()}</h1>
+                    </div>
                 </div>
             </Box>
         </Box>
